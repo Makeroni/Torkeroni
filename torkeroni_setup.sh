@@ -204,7 +204,7 @@ echo "        netmask 255.255.255.0"                                            
 echo "up iptables-restore < /etc/iptables.ipv4.nat"                                                                                 >> /etc/network/interfaces
 
 if [ ${CHIPSET,,} = "yes" ]; then 
-	echo "Install: special hostapd version"                                                                                         | tee -a ${log_file}
+    echo "Install: special hostapd version"                                                                                         | tee -a ${log_file}
     tar -xzvf RTL8188-hostapd-2.0.tar.gz                                                                                            | tee -a ${log_file}
     cd RTL8188-hostapd-2.0 && sudo make
 
