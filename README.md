@@ -16,4 +16,4 @@ Execute this script as root user. Follow all steps to create a new Tor router.
 
 The script creates a log file at the same path of torkeroni_setup.sh.
 
-Wew are planning to release a full distribution ready to use for Raspberry Pi with a built-in honeypot, stay tuned!!!
+We are planning to release a full distribution ready to use for Raspberry Pi with a built-in honeypot, stay tuned!!!
